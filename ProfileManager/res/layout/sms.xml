@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/smsText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bb8"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:paddingTop="10sp"
+        android:text="@string/smsLogs"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/smsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/smsText"
+        android:background="@drawable/bb19"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none" >
+    </ListView>
+
+</RelativeLayout>

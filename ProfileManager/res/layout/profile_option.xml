@@ -1,0 +1,313 @@
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bb21"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bb8"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:paddingTop="10sp"
+        android:text="@string/profileDetails"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10sp"
+         android:paddingLeft="10sp"
+          android:paddingBottom="10sp"
+        android:paddingTop="20sp"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/profileNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:text="@string/name"
+            android:textColor="#990000"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:layout_gravity="left"
+            android:text="@string/profileNameHint"
+            android:padding="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+   
+
+   
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/wifiText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/wifi"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/wifi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="40"
+            android:padding="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/bluetoothText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/bluetooth"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bluetooth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="40"
+            android:padding="10dp"
+            
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/brightness"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/brightnessText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="40"
+            android:padding="10dp"
+            
+            android:textSize="15sp" />
+    </LinearLayout>
+      <ProgressBar
+                 android:id="@+id/brightnessDisplayBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:layout_gravity="left"
+                 android:minWidth="150dp"
+                 android:focusable="false"
+                 android:enabled="false"
+                 android:padding="10dp" />
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/mediaVolumeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/mediaVolume"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mediaVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:padding="10dp"
+            
+            android:textSize="15sp" />
+    </LinearLayout>
+     <ProgressBar
+                 android:id="@+id/mediaDisplayBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:minWidth="150dp"
+                 android:focusable="false"
+                 android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/ringtone"
+          android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ringtoneText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:padding="10dp"
+            
+            android:textSize="15sp" />
+    </LinearLayout>
+  <ProgressBar
+                 android:id="@+id/ringtoneDisplayBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 android:minWidth="150dp"
+                 android:focusable="false"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/notification"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/notificationText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:padding="10dp"
+            
+            android:textSize="15sp" />
+    </LinearLayout>
+      <ProgressBar
+                 android:id="@+id/notificationDisplayBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 android:minWidth="150dp"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:focusable="false"
+                 android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100" >
+  <TextView
+            android:id="@+id/alarmVolumeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:text="@string/alarmVolume"
+            android:textColor="#990000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/alarmVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:padding="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+      <ProgressBar
+                 android:id="@+id/alarmDisplayBar"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 android:minWidth="150dp"
+                 style="?android:attr/progressBarStyleHorizontal"
+                 android:focusable="false"
+                 android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" 
+        android:paddingBottom="10sp">
+
+        <Button
+            android:id="@+id/applyButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="10sp"
+            android:text="@string/applyButton" 
+            android:background="@drawable/apply"
+            />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/save"
+            android:padding="10sp"
+            android:text="@string/deleteButton" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="10sp"
+            android:text="@string/editButton"
+            android:background="@drawable/edit" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

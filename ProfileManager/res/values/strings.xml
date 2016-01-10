@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">profile_manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="profilemanager">Profile Manager</string>
+    <string name="call">View Call Logs     &gt;</string>
+    <string name="sms">View SMS logs     &gt;</string>
+    <string name="profile">Select/Create Profile    &gt;</string>
+    <string name="options">OPTIONS</string>
+    <string name="contactName">Contact Name</string>
+    <string name="contactNumber">Number:</string>
+    <string name="callLogs">Call Logs</string>
+    <string name="name">Name:</string>
+    <string name="time">Last Call Time:</string>
+    <string name="smsLogs">Sms Logs</string>
+    <string name="frequency">Frequency</string>
+    <string name="msgTime">Last SMS Time</string>
+    <string name="title_activity_sms_log">SmsLogActivity</string>
+    <string name="smsLog">Sms Detail</string>
+    <string name="callLog">Call Detail</string>
+    <string name="profileSelector">Select a Profile</string>
+    <string name="createProfile">Create a new Profile</string>
+    <string name="title_activity_profile_log">ProfileLogActivity</string>
+    <string name="choseAction">Choose Action</string>
+    <string name="profileNameHint">Enter the profile name</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="gps">G.P.S.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Screen Brightness</string>
+    <string name="media">Media Volume</string>
+    <string name="ringtone">Ringtone Volume</string>
+    <string name="notification">Notification Volume</string>
+    <string name="submit">Save</string>
+    <string name="applyButton">Apply</string>
+    <string name="deleteButton">Delete</string>
+    <string name="editButton">Edit</string>
+    <string name="mediaVolume">Media Volume</string>
+    <string name="alarmVolume">Alarm Volume</string>
+    <string name="enableAutomatic">Enable Automatically?</string>
+    <string name="profileDetails">Profile Details</string>
+    <string name="editProfile">Edit Profile</string>
+
+</resources>
