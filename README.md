@@ -10,6 +10,9 @@ Project was divide in two parts first creating content provider in separate appl
 Profile Manager application which utilize the content provider created by ProfileDBApplication and stores all logging and 
 profile data in it.
 
-To run the app first install ProfileDBApplication on devie and then install Profile ManagerApplication.
+User is notified with most frequently called or SMS Recipient, suggesting them to call or sms the notified number.
+
+Custom profile can be created and can be applied automatically at a time set by user or instantly by going to profile screen
+To run the app first install ProfileDBApplication on device and then install Profile ManagerApplication.
 
 To view demo click [here.](https://youtu.be/Js2qpMkvs3o)
